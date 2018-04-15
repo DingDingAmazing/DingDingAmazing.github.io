@@ -198,7 +198,7 @@ AOF是一个写文件操作，其目的是将操作日志写到磁盘上，所�
 - appednfsync always
 当设置appendfsync为always时，每一次写操作都会调用一次fsync，这时数据是最安全的，当然，由于每次都会执行fsync，所以其性能也会受到影响。
 
-#如何选择
+# 如何选择
 
 我这段时间在用Redis，感觉挺方便的，但比较疑惑在选择内存数据库的时候到底什么时候选择redis，什么时候选择memcache，然后就查到下面对应的资料，是来自redis作者的说法（stackoverflow上面 。
 >   You should not care too much about performances. Redis is faster per core with small values, but memcached is able to use multiple cores with a single executable and TCP port without help from the client. Also memcached is faster with big values in the order of 100k. Redis recently improved a lot about big values (unstable branch) but still memcached is faster in this use case. The point here is: nor one or the other will likely going to be your bottleneck for the query-per-second they can deliver.
