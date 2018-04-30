@@ -14,11 +14,17 @@ links:
   - name:         首页
     url:          /
     external:     false
-  - name:         技术
+  - name:         windows程序
+    url:          /WinApp
+    external:     false
+  - name:         嵌入式
+    url:          /embedded
+    external:     false
+  - name:         书籍
     url:          /book
     external:     false
-  - name:         生活
-    url:          /road
+  - name:         工具
+    url:          /tool
     external:     false
   - name:         归档
     url:          /archives

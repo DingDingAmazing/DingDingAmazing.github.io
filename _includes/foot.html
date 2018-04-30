@@ -2,7 +2,7 @@
 	<div class="footer-social">
 		<div class="footer-container clearfix">
 			<div class="social-list"> 
-	<a class="social CSDN" target="blank" href="https://github.com/DingDingAmazing" title="访问 DingDing CSDN" data-hover="CSDN">CSDN</a>
+	<a class="social CSDN" target="blank" href="https://blog.csdn.net/qwer012345678" title="访问 DingDing CSDN" data-hover="CSDN">CSDN</a>
     <a class="social github" target="blank" href="https://github.com/DingDingAmazing" title="访问 DingDing GitHub" data-hover="GitHub">GitHub</a>
     <a class="social rss" target="blank" href="/feed.xml"title="访问 RSS" data-hover="RSS">RSS</a>
 	</div>
@@ -36,7 +36,7 @@
             <div class="meta-item meta-comments">
                 <h3 class="meta-title">最新文章</h3>
   {% for post in site.posts limit:14 %}        
-      {% if post.book %}
+      {% if post.tool %}
  <li><a href="{{ post.url }}" title="访问 {{ post.title }}" data-hover="{{ post.title }}">{{ post.title }}</a></li>
       {% endif %}
     {% endfor %}
