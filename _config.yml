@@ -20,7 +20,7 @@ links:
   - name:         嵌入式
     url:          /embedded
     external:     false
-  - name:         书籍
+  - name:         娱乐
     url:          /book
     external:     false
   - name:         工具

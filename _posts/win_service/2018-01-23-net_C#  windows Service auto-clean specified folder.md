@@ -1,6 +1,7 @@
 ﻿---
 layout: blog
 istop: true
+newest: true
 winapp: true
 title: "windows service for auto-clean"
 background-image: https://picstore-1256648361.cos.ap-shanghai.myqcloud.com/windows_service/service.jpg
